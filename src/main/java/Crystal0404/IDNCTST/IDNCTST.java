@@ -29,6 +29,6 @@ public class IDNCTST implements ModInitializer {
             LogManager.getLogger();
     @Override
     public void onInitialize() {
-        LOGGER.info("Out-of-order chat detection has been turned off :)");
+        LOGGER.info("[IDNCTST]: Out-of-order chat detection has been turned off :)");
     }
 }
