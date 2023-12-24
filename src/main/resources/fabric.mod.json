@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+
+  "name": "${name}",
+  "description": "I didn't change the system time",
+  "authors": [
+    "Crystal_0404"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Crystal0404",
+    "sources": "https://github.com/Crystal0404/IDNCTST"
+  },
+
+  "icon": "assets/IDNCTST/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "Crystal0404.IDNCTST.IDNCTST"
+    ]
+  },
+  "mixins": [
+    "IDNCTST.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.4",
+    "minecraft": "${minecraft_dependency}"
+  }
+}

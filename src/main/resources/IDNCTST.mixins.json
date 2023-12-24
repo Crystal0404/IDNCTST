@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "Crystal0404.IDNCTST.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "out_of_order_chat_mixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
